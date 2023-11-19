@@ -1,0 +1,27 @@
+<configuration>
+    <!-- Insert the current time formatted as "yyyyMMdd'T'HHmmss" under
+           the key "bySecond" into the logger context. This value will be
+           available to all subsequent configuration elements. -->
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+    <!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
+    <!--        &lt;!&ndash; encoders are assigned the type-->
+    <!--             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default &ndash;&gt;-->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/log-${bySecond}.txt</file>
+        <!--        <append>false</append>-->
+        <!-- set immediateFlush to false for much higher logging throughput -->
+        <!--        <immediateFlush>true</immediateFlush>-->
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <!--            <pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} -%kvp- %msg%n</pattern>-->
+            <pattern>%date %level %logger{10} [%file:%line] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+<!--                <appender-ref ref="STDOUT" />-->
+        <!--        for windows, you can leave previous string - for mac need to comment-->
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

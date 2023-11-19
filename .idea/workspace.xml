@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15db8580-5b9c-41ad-be07-7df3da50e1ee" name="Changes" comment="fixed delete contact" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2VkGnJrCWDfjARLZDs0SthrOLMt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Tools/gradle-7.4",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/dto" />
+      <recent name="$PROJECT_DIR$/src/test/java/manager" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="manager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.RegTestOkHTTP.registrationPositive">
+    <configuration name="LoginTestOkHTTP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.okhttp.LoginTestOkHTTP&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTestOkHTTP.loginPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.okhttp.LoginTestOkHTTP.loginPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTests.negativeWrongPasswordNoLetters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.LoginTests.negativeWrongPasswordNoLetters&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegTestOkHTTP.negativeRegistration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.okhttp.RegTestOkHTTP.negativeRegistration&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegTestOkHTTP.registrationPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.okhttp.RegTestOkHTTP.registrationPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RegTestOkHTTP.registrationPositive" />
+        <item itemvalue="Gradle.RegTestOkHTTP.negativeRegistration" />
+        <item itemvalue="Gradle.LoginTestOkHTTP" />
+        <item itemvalue="Gradle.LoginTests.negativeWrongPasswordNoLetters" />
+        <item itemvalue="Gradle.LoginTestOkHTTP.loginPositive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15db8580-5b9c-41ad-be07-7df3da50e1ee" name="Changes" comment="" />
+      <created>1695372837585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695372837585</updated>
+    </task>
+    <task id="LOCAL-00001" summary="hw 7">
+      <option name="closed" value="true" />
+      <created>1695742741285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695742741285</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hw 8">
+      <option name="closed" value="true" />
+      <created>1696953407624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696953407624</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hw 9">
+      <option name="closed" value="true" />
+      <created>1697178344578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697178344578</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hw 10">
+      <option name="closed" value="true" />
+      <created>1697557517891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697557517891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add logger">
+      <option name="closed" value="true" />
+      <created>1697782822037</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697782822037</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add testNG listener">
+      <option name="closed" value="true" />
+      <created>1697782921695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697782921695</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Listener from Selenium">
+      <option name="closed" value="true" />
+      <created>1697790480683</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697790480683</updated>
+    </task>
+    <task id="LOCAL-00008" summary="L12">
+      <option name="closed" value="true" />
+      <created>1697794023467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697794023467</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed phonebook (login and reg tests run all success)">
+      <option name="closed" value="true" />
+      <created>1698148299846</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698148299846</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add functionality for gradlew scripts">
+      <option name="closed" value="true" />
+      <created>1698167115389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698167115389</updated>
+    </task>
+    <task id="LOCAL-00011" summary="properties">
+      <option name="closed" value="true" />
+      <created>1698170741662</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698170741662</updated>
+    </task>
+    <task id="LOCAL-00012" summary="dataprovider">
+      <option name="closed" value="true" />
+      <created>1698388413697</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698388413697</updated>
+    </task>
+    <task id="LOCAL-00013" summary="csv + add contact test">
+      <option name="closed" value="true" />
+      <created>1698392983644</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698392983644</updated>
+    </task>
+    <task id="LOCAL-00014" summary="delete contact test">
+      <option name="closed" value="true" />
+      <created>1698397118276</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698397118276</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed delete contact">
+      <option name="closed" value="true" />
+      <created>1698907062022</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698907062022</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw 7" />
+    <MESSAGE value="hw 8" />
+    <MESSAGE value="hw 9" />
+    <MESSAGE value="hw 10" />
+    <MESSAGE value="add logger" />
+    <MESSAGE value="add testNG listener" />
+    <MESSAGE value="add Listener from Selenium" />
+    <MESSAGE value="L12" />
+    <MESSAGE value="fixed phonebook (login and reg tests run all success)" />
+    <MESSAGE value="add functionality for gradlew scripts" />
+    <MESSAGE value="properties" />
+    <MESSAGE value="dataprovider" />
+    <MESSAGE value="csv + add contact test" />
+    <MESSAGE value="delete contact test" />
+    <MESSAGE value="fixed delete contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed delete contact" />
+  </component>
+</project>

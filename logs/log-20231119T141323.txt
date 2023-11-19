@@ -1,0 +1,17 @@
+2023-11-19 14:13:44,058 INFO m.TestNGListener [TestNGListener.java:50] start test - onstart - : Gradle test
+2023-11-19 14:13:44,081 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-19 14:13:44,081 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,082 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-11-19 14:13:44,083 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,083 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,085 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,086 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-11-19 14:13:44,086 INFO t.BaseTests [BaseTests.java:40] ----------------------------------------------------------------------------------
+2023-11-19 14:13:44,086 INFO t.BaseTests [BaseTests.java:41] started method: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,086 INFO t.BaseTests [BaseTests.java:42] started method with params: []
+2023-11-19 14:13:44,086 INFO m.TestNGListener [TestNGListener.java:15] started test: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,087 INFO m.TestNGListener [TestNGListener.java:33] test skipped: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,087 INFO t.BaseTests [BaseTests.java:47] stopped method: negativeWrongPasswordNoLetters
+2023-11-19 14:13:44,087 INFO t.BaseTests [BaseTests.java:48] stopped method with params: []
+2023-11-19 14:13:44,090 INFO m.TestNGListener [TestNGListener.java:56] all code executed: passed tests: [ResultMap map=[]]
+2023-11-19 14:13:44,090 INFO m.TestNGListener [TestNGListener.java:57] all code executed: failed tests: [ResultMap map=[]]
