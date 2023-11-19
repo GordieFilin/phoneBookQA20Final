@@ -15,7 +15,7 @@ import java.util.UUID;
 public class RegTestOkHTTP  {
     public static String generateRandomEmail() {
         String randomString = UUID.randomUUID().toString().replace("-", "").substring(0, 10);
-        String domain = "example.com";
+        String domain = "domain.com";
         return randomString + "@" + domain;
     }
         String email = generateRandomEmail();
